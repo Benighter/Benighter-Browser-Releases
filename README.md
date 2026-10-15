@@ -4,7 +4,11 @@ Signed Android downloads and the update feed for **Benighter Browser**. Applicat
 
 [Download the latest Android APK](https://github.com/Benighter/Benighter-Browser-Releases/releases/latest)
 
-This first Android preview uses a maintained Mozilla GeckoView engine with original Benighter branding and a dedicated OpenBackend account for encrypted browser sync. Browsing works without an account. Android 8 or later is required. Both ARM64 phones and x86-64 test devices are supported by the APK.
+This Android preview uses a maintained Mozilla GeckoView engine with original Benighter branding and a dedicated OpenBackend account for encrypted browser sync. Browsing works without an account. Android 8 or later is required. Both ARM64 phones and x86-64 test devices are supported by the APK.
+
+Version 0.2.0 introduces a compact browser interface with bookmark shortcuts, recent history, and System, Light and Dark appearance settings. Menus, account forms and update dialogs follow the selected theme. Websites that support a colour preference receive the same choice.
+
+The Android 35 emulator renders dim system buttons in three-button navigation. Gesture navigation is verified; physical-phone behaviour still needs checking.
 
 The app checks this repository for updates, verifies the APK's checksum, package, version and signing identity, and opens Android's installation confirmation. Release assets contain the APK, its SHA-256, `android-update.json` and release notes.
 
